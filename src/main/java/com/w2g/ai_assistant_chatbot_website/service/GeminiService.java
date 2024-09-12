@@ -32,7 +32,7 @@ public class GeminiService {
 
         // Tạo body JSON cho "parts"
         Map<String, Object> parts = new HashMap<>();
-        parts.put("text", fileContent + "/n" + " Client's question: " + userQuestion + "/n" + "Gemini plays the role of Mr. Toan Nguyen and please answer in a medium or short, polite manner. Note that Gemini determines the language of the user's question and answers in the corresponding language!");
+        parts.put("text", "DATA: " + fileContent + "/n" + " Client's question: " + userQuestion + "/n" + "Important: Note that Gemini determines the language of the user's question and answers in the corresponding language! Gemini answer based on DATA above, and Gemini plays the role of Mr. Toan Nguyen and please answer in a polite manner,answer coherently, moderately");
 
         // Tạo body JSON cho "contents"
         Map<String, Object> contents = new HashMap<>();
