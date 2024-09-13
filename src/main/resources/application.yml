@@ -15,7 +15,7 @@ server:
 #  private-key: 
 
 path:
-  data: src/main/resources/docs/data.txt
+  data: 
 
 spring:
   servlet:
