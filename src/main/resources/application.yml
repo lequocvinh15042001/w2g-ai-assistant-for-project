@@ -15,7 +15,7 @@ server:
 #  private-key: tK9A7PuWgGGS1BJOzFbdtgUoUX3H8ngwB8ZoX/AAcYo=
 
 path:
-  data: src/main/resources/docs/data.txt
+  data: 
 
 spring:
   servlet:
@@ -25,7 +25,7 @@ spring:
       max-request-size: 10MB
 
 gemini:
-  api-key: AIzaSyAWfcN79F9AaTZFFeZXJJJJ2Tp4w1uGLkI
+  api-key: 
 
 #redis:
 #  host: localhost
